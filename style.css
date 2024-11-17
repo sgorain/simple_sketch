@@ -1,0 +1,17 @@
+.grid{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    aspect-ratio: 1;
+}
+
+.line{
+    display: flex; 
+    flex-grow: 1;
+    /*flex-direction = row automatiquement*/
+}
+
+.pixel{
+    flex-grow: 1;
+}
+
